@@ -1,13 +1,12 @@
 #menubalk {
     background-color: #9FAC8A;
     font-color: #9FAC8A;
+}
 
 #desplinter {
     color: black;
     font-weight: bold;
     font-size: 24pt;
-}
-
 }
 
 
@@ -20,6 +19,11 @@
 
 body{
     background-image: url("http://localhost/desplinter/image/foto_4.jpg") ;
+}
+
+#formulier{
+    text-align: center;
+    background-color: #9FAC8A;
 }
 
 

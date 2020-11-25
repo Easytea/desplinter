@@ -17,24 +17,28 @@
     </div>
 <hr/>
 
-<h1>In welke groep zit jij?</h1>
+<div id="formulier">
+    <h1>In welke groep zit jij?</h1>
 
-    <form action="http://localhost/desplinter/php/forum.php" method="post">
+        <form action="http://localhost/desplinter/php/forum.php" method="post">
 
-        <label>Hoe heet jij: <input type="text" name="fname"></label>
-        <br/>
-        <label>in welke groep zit jij:
-            <select name="group">
-                <option value="je hebt geen groep gezokzen">Selecteer een groep</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-            </select>
-        </label>
-        <br>
-        <a href="http://localhost/desplinter/php/forum.php">
-        <input type="submit" name=volgende value="volgende">
+            <label>Hoe heet jij: <input type="text" name="fname"></label>
+            <br/>
+            <label>in welke groep zit jij:
+                <select name="group">
+                    <option value="je hebt geen groep gezokzen">Selecteer een groep</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </label>
+            <br>
+            <a href="http://localhost/desplinter/php/forum.php">
+            <input type="submit" name=volgende value="volgende">
 
-    </form>
+        </form>
+</div>
+
+
 </body>
 </html>
