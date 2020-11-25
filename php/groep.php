@@ -20,10 +20,11 @@
 <h1>In welke groep zit jij?</h1>
 
     <form action="http://localhost/desplinter/php/forum.php" method="post" name="groep">
-        <input type= "radio" name ="1 t/m 4"> <label>Groep 1 t/m 4</label>
+        <input type= "radio" name ="groep4"> <label>Groep 4</label>
         <br/>
-    	<input type= "radio" name ="5 t/m 8"> <label>Groep 5 t/m 8</label>
-
+    	<input type= "radio" name ="groep5"> <label>Groep 5</label>
+        <br/>
+        <input type= "radio" name ="groep6"> <label>Groep 6</label>
 
     </form>
     <br/>
