@@ -19,18 +19,21 @@
 
 <h1>In welke groep zit jij?</h1>
 
-    <form action="http://localhost/desplinter/php/forum.php" method="post" name="groep">
-        <input type= "radio" name ="groep4"> <label>Groep 4</label>
+    <form action="http://localhost/desplinter/php/forum.php" method="post">
+
+        <label>Hoe heet jij: <input type="text" name="fname"></label>
         <br/>
-    	<input type= "radio" name ="groep5"> <label>Groep 5</label>
-        <br/>
-        <input type= "radio" name ="groep6"> <label>Groep 6</label>
+        <label>in welke groep zit jij:
+            <select name="group">
+                <option value="ns">Selecteer een groep</option>
+                <option value="1-4">1-4</option>
+                <option value="5-8">5-8</option>
+            </select>
+        </label>
+        <br>
+        <a href="http://localhost/desplinter/php/forum.php">
+        <input type="submit" name=volgende value="volgende">
 
     </form>
-    <br/>
-    <a href="http://localhost/desplinter/php/forum.php">
-    <input type="submit" name="volgende" value="volgende">
-
-
 </body>
 </html>
