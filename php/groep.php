@@ -25,9 +25,10 @@
         <br/>
         <label>in welke groep zit jij:
             <select name="group">
-                <option value="ns">Selecteer een groep</option>
-                <option value="1-4">1-4</option>
-                <option value="5-8">5-8</option>
+                <option value="je hebt geen groep gezokzen">Selecteer een groep</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
             </select>
         </label>
         <br>

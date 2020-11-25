@@ -1,38 +1,36 @@
 <?php
+if (isset($_POST['volgende']))
+{
+    $name = $_POST["fname"];
+    echo "Hallo " . $name;
+    $group = $_POST['group'];
+    echo  "<br>" . "Jij zit in groep: " . $group . "<br>";
 
 
+}
 
-$bouw = 1;
 
-$bouw = 2;
+if ($group == "je hebt geen groep gezokzen")
+    {
+        echo "Ga trug naar de volgende pagina en selecteer een groep" ;
+    }
 
-if ($bouw == 1)
-	
-	{
+elseif ($group == '4')
+    {
+    echo "<br>";
+    include("groep4.php");
 
-		$min = 1;
-		$max = 10;
+    }
 
-	}
-	
-	else
-		
-		{
-			$min = 10;
-			$max = 100;	
-		}
+elseif ($group == '5')
+    {
+        echo "groep 5";
+    }
 
- $getal1 = rand ($min , $max );
- 
- $getal2 = rand ( $min , $max ) ;
- 
- 
- $uitkomst = $getal1 + $getal2 ;
- 
- 
- echo "hoeveel is $getal1 + $getal2?";
- echo "<br/>";
- 
- echo "Het goede antwoord is: $uitkomst";
- 
- ?>
+elseif ($group == '6')
+    {
+        echo "groep 6";
+    }
+?>
+
+
