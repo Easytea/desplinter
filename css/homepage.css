@@ -1,8 +1,48 @@
-#bovenbalk {
+#menubalk {
+        background-color: #9FAC8A;
+        font-color: #9FAC8A;
+
+#desplinter {
+        color: black;
+        font-weight: bold;
+        font-size: 24pt;
+}
+
+}
+
+
+#menubalktekst{
+        color: black;
+        border: 3px solid black;
+        font-weight: bold;
+        font-size: 15pt;
+}
+
+body{
+        background-image: url("http://localhost/desplinter/image/foto_4.jpg") ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tekstvak{
+        text-align: center;
         background-color: #9FAC8A;
 }
 
-#desplinter{
-        font-size: 40px;
+#desplinter {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 24pt;
 }
-
