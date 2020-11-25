@@ -9,12 +9,12 @@
 
 </head>
 <body>
-    <p id="bovenbalk">
-        <h1 id="desplinter"><a href="http://localhost/desplinter/html/homepage.html">De Splinter</a></h1>
-        <a href="http://localhost/desplinter/php/groep.php">Oefeningen</a>
-        <a href="http://localhost/desplinter/html/informatie.html">Informatie</a>
-        <a href="http://localhost/desplinter/html/contact.html">Contact</a>
-    </p>
+    <div id="menubalk">
+        <h1><a id="desplinter" href="http://localhost/desplinter/html/homepage.html">De Splinter</a></h1>
+        <a id="menubalktekst" href="http://localhost/desplinter/php/groep.php">Oefeningen</a>
+        <a id="menubalktekst" href="http://localhost/desplinter/html/informatie.html">Informatie</a>
+        <a id="menubalktekst" href="http://localhost/desplinter/html/contact.html">Contact</a>
+    </div>
 <hr/>
 
 <h1>In welke groep zit jij?</h1>

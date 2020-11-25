@@ -1,14 +1,25 @@
-/*body (achtergrondkleur)*/
-body{
+#menubalk {
     background-color: #9FAC8A;
+    font-color: #9FAC8A;
+
+#desplinter {
+    color: black;
+    font-weight: bold;
+    font-size: 24pt;
 }
 
-h1{
-    font-size: 40px;
-    color: blanchedalmond;
 }
 
-form{
-    font-size: 40px;
-    color: blanchedalmond;
+
+#menubalktekst{
+    color: black;
+    border: 3px solid black;
+    font-weight: bold;
+    font-size: 15pt;
 }
+
+body{
+    background-image: url("http://localhost/desplinter/image/foto_4.jpg") ;
+}
+
+
