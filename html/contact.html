@@ -28,20 +28,14 @@
 
 
     <fieldset id="formulier" style="width:0px">
-<form action="contact.php" method="post" name="contact formulier">
-    <legend><strong>Contact Formulier</strong></legend>
-    <label>Uw Naam:</label>	</br><input type="text" name="naam" placeholder="naam"></br></br>
-    <label>Uw Adres:</label> </br>	<input type="text" name="adres" placeholder="adres"></br></br>
-    <label>Uw Postcode:</label> </br>	<input type="text" name="postcode" placeholder="postcode"></br></br>
-    <label>Uw Woonplaats:</label> </br>	<input type="text" name="woonplaats" placeholder="woonplaats"></br></br>
-    <label>Uw Emailadres:</label> </br>	<input type="text" name="emailadres" placeholder="emailadres"></br></br>
-    <label>Uw Bericht:</label> </br> <textarea name="" id="" cols="30 rows="20" ></textarea>
-
-
-</form>
+        <form action="http://localhost/desplinter/php/contact.php" method="post">
+            First Name: <input type="text" name="first_name"><br>
+            Last Name: <input type="text" name="last_name"><br>
+            Email: <input type="text" name="email"><br>
+            Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
             </br>
-            <a href="contactformulier.html">
-            <input type="submit" name="versturen" value="versturen">
     </fieldset>
 
 
