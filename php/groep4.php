@@ -1,6 +1,9 @@
 <?php
-
+    $min = 100;
+    $max = 2000;
 ?>
 <html>
-Wollah meh a zagbee
+<body>
+    <
+</body>
 </html>
