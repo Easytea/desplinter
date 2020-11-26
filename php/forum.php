@@ -17,19 +17,21 @@ if ($group == "je hebt geen groep gezokzen")
 
 elseif ($group == '4')
     {
-    echo "<br>";
-    include("groep4.php");
+        echo "<br>";
+        include("groep4.php");
 
     }
 
 elseif ($group == '5')
     {
-        echo "groep 5";
+        echo "<br>";
+        include("groep5.php");
     }
 
 elseif ($group == '6')
     {
-        echo "groep 6";
+        echo "<br>";
+        include("groep4.php");
     }
 ?>
 
