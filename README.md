@@ -10,3 +10,6 @@ Zodat we hier extra info in kunnen zetten.
 
 25-11-2020
 *Ik heb het menu afgemaakt en overal ingezet.
+
+25- 11- 2020
+	-overlegt hoe we het reken gedeelte van de site gaan maken en toevoegen. #Tino#
