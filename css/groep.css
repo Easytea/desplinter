@@ -27,8 +27,10 @@ body{
 }
 
 #formulier{
+    font-family: "Calibri";
     text-align: center;
     background-color: #9FAC8A;
+    display:table;
 }
 
 

@@ -18,15 +18,15 @@
 <hr/>
 
 <div id="formulier">
-    <h1>In welke groep zit jij?</h1>
+    <h1>Vul hier je gegevens in!</h1>
 
         <form action="http://localhost/desplinter/php/forum.php" method="post">
 
             <label>Hoe heet jij: <input type="text" name="fname"></label>
             <br/>
-            <label>in welke groep zit jij:
+            <label>In welke groep zit jij:
                 <select name="group">
-                    <option value="je hebt geen groep gezokzen">Selecteer een groep</option>
+                    <option value="Je hebt geen groep gezokzen">Selecteer een groep</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
                     <option value="6">6</option>

@@ -25,3 +25,25 @@
 body{
     background-image: url("http://localhost/desplinter/image/foto_4.jpg") ;
 }
+
+#contactgegevens{
+    background-color: #9FAC8A;
+    font-family: "Calibri";
+    display:table;
+    text-align: center;
+}
+
+form{
+    font-family: "Calibri";
+    text-align: center;
+    background-color: #9FAC8A;
+    display:table;
+}
+
+legend{
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+}
+
