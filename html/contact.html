@@ -28,12 +28,12 @@
 
 
     <fieldset id="formulier" style="width:0px">
-        <form action="http://localhost/desplinter/php/contact.php" method="post">
-            First Name: <input type="text" name="first_name"><br>
-            Last Name: <input type="text" name="last_name"><br>
+        <form action="http://localhost/desplinter/php/contact.php" method="post" enctype="text/plain">
+            Naam: <input type="text" name="name"><br>
             Email: <input type="text" name="email"><br>
-            Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
-            <input type="submit" name="submit" value="Submit">
+            Bericht:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+            <input type="submit" name="Verzenden" value="send">
+            <input type="reset" name="Reset" value="reset">
         </form>
             </br>
     </fieldset>
