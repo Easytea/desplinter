@@ -1,52 +1,57 @@
-#menubalk {
+#head{
         background-color: #9FAC8A;
         font-color: #9FAC8A;
+        height: 100px;
+        padding: 20px 50px;
 }
 
 
 #desplinter {
+
         color: black;
         font-weight: bold;
         font-size: 24pt;
         font-family: "Agency FB";
+        text-align: center;
+}
+
+.header img {
+        float: left;
+        width: 100px;
+        height: 100px;
+        background: #555;
+        border-radius: 27%;
+}
+
+#knop {
+        display: inline-block;
+        padding: 50px 50px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        text-decoration: none;
+        color: #333;
+        background-color: pink;
+        border-color: #ccc;
 }
 
 
-
-
-#menubalktekst{
-        color: black;
-        border: 3px solid black;
-        font-weight: bold;
-        font-size: 15pt;
-        font-family: "Calibri";
-}
 
 body{
-        background-image: url("http://localhost/desplinter/image/foto_4.jpg") ;
+        background-image: url("http://localhost/desplinter/image/foto_4.jpg");
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#tekstvak{
-        text-align: center;
-        background-color: #9FAC8A;
-}
-
-#desplinter {
-        text-align: center;
-        color: black;
-        font-weight: bold;
-        font-size: 24pt;
-}
