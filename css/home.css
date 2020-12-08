@@ -1,0 +1,55 @@
+#head{
+        background-color: #9FAC8A;
+        font-color: #9FAC8A;
+        height: 100px;
+        padding: 20px 50px;
+}
+
+
+#desplinter {
+
+        color: black;
+        font-weight: bold;
+        font-size: 24pt;
+        font-family: "Agency FB";
+        text-align: center;
+}
+
+.header img {
+        float: left;
+        width: 100px;
+        height: 100px;
+        background: #555;
+        border-radius: 27%;
+}
+
+
+body{
+        background-image: url("http://localhost/desplinter/image/foto_4.jpg");
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+}
+
+li {
+        float: left;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: "Agency FB";
+}
+
+li a:hover {
+        background-color: pink;
+}
+/*--------------------------------------------------------------------------------------------------------*/

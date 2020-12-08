@@ -4,14 +4,35 @@
     <title>Rekensite</title>
     <link rel="stylesheet" href="http://localhost/desplinter/css/contact.css">
 </head>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Groep</title>
+    <meta charset=utf-8>
+    <meta name=description content="beschrijving">
+    <meta name=keywords content="trefwoord,trefwoord">
+    <link rel="stylesheet" href="http://localhost/desplinter/css/groep.css">
+
+</head>
 <body>
-<div id="menubalk">
-    <h1><a id="desplinter" href="http://localhost/desplinter/html/homepage.html">De Splinter</a></h1>
-    <a id="menubalktekst" href="http://localhost/desplinter/php/groep.php">Oefeningen</a>
-    <a id="menubalktekst" href="http://localhost/desplinter/html/informatie.html">Informatie</a>
-    <a id="menubalktekst" href="http://localhost/desplinter/html/contact.html">Contact</a>
+<div id="head">
+    <div class="header">
+        <img src="http://localhost/desplinter/image/logo.jpg" alt="logo" />
+    </div>
+
+    <div id="desplinter">
+        <h1>De Splinter</h1>
+    </div>
 </div>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="http://localhost/desplinter/informatie.html">Informatie</a></li>
+    <li><a href="http://localhost/desplinter/php/groep.php">Oefeningen</a></li>
+    <li><a href="http://localhost/desplinter/contact.html">Contact</a></li>
+</ul>
 <hr/>
+
+<!------------------------------------------------------------------------------------>
 <fieldset style="width:200px">
     <p>
         Bedankt voor het invullen van het formulier! <br/>
@@ -21,24 +42,6 @@
 <img src="http://localhost/desplinter/image/foto_2.jpg" alt="lachend kind" hight="800" width="500">
 </html>
 
-<?php
-$name = $_REQUEST['name'];
-$email = $_REQUEST['email'];
-$message = $_REQUEST['message'];
 
-if (empty($name) || empty($email) || empty($message))
-{
-    echo "Vul alle velden in.";
-}
-else
-{
-    mail("t.gieben@outlook.com", "De Splinter Bericht", $message , "Van: $name <
-        $email>");
-    echo "<script type='text/javascript'>alert('Je bericht is succesvol verzonden')
-     window.history.log(-1);
-    </script>";
-
-}
-?>
 
 

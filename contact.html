@@ -6,14 +6,26 @@
     <link rel="stylesheet" href="http://localhost/desplinter/css/contact.css">
 </head>
 <body>
-    <div id="menubalk">
-        <h1><a id="desplinter" href="http://localhost/desplinter/html/homepage.html">De Splinter</a></h1>
-        <a id="menubalktekst" href="http://localhost/desplinter/php/groep.php">Oefeningen</a>
-        <a id="menubalktekst" href="http://localhost/desplinter/html/informatie.html">Informatie</a>
-        <a id="menubalktekst" href="http://localhost/desplinter/html/contact.html">Contact</a>
+<div id="head">
+    <div class="header">
+        <img src="http://localhost/desplinter/image/logo.jpg" alt="logo" />
     </div>
+
+    <div id="desplinter">
+        <h1>De Splinter</h1>
+    </div>
+</div>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="http://localhost/desplinter/informatie.html">Informatie</a></li>
+    <li><a href="http://localhost/desplinter/php/groep.php">Oefeningen</a></li>
+    <li><a href="http://localhost/desplinter/contact.html">Contact</a></li>
+</ul>
 <hr/>
 
+<!------------------------------------------------------------------------------------>
+<br/>
+<br/>
     <fieldset style="width:250px">
     <div id="contactgegevens">
         <p>
@@ -25,8 +37,8 @@
         </p>
     </div>
     </fieldset>
-
-
+<br/>
+<br/>
     <fieldset id="formulier" style="width:0px">
         <form action="http://localhost/desplinter/php/contact.php" method="post" enctype="text/plain">
             Naam: <input type="text" name="name"><br>

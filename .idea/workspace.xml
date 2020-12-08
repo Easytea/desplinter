@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbe3d3bc-6c25-4c03-8cde-acef0d76c0f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/homepage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/informatie.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/oefeningen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contactformulier.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contactformulier.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/groep.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/groep.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/homepage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/informatie.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/informatie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/oefeningen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/oefeningen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/informatie.html" beforeDir="false" afterPath="$PROJECT_DIR$/informatie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oefeningen.html" beforeDir="false" afterPath="$PROJECT_DIR$/oefeningen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/groep.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/groep.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +47,22 @@
       <option name="presentableId" value="Default" />
       <updated>1606984791545</updated>
       <workItem from="1606984793238" duration="2933000" />
+      <workItem from="1607251289915" duration="439000" />
+      <workItem from="1607418104805" duration="1309000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="148" y="66" key="DiffContextDialog" timestamp="1607418427099">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="148" y="66" key="DiffContextDialog/0.0.1536.824/840.2160.2160.1080@0.0.1536.824" timestamp="1607418427099" />
+    <state x="615" y="134" key="RollbackChangesDialog" timestamp="1607418428261">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="615" y="134" key="RollbackChangesDialog/0.0.1536.824/840.2160.2160.1080@0.0.1536.824" timestamp="1607418428261" />
   </component>
 </project>
