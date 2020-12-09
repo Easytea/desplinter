@@ -21,7 +21,7 @@
     </div>
 </div>
 <ul>
-    <li><a href="index.html">Home</a></li>
+    <li><a href="http://localhost/desplinter/index.html">Home</a></li>
     <li><a href="http://localhost/desplinter/informatie.html">Informatie</a></li>
     <li><a href="http://localhost/desplinter/php/groep.php">Oefeningen</a></li>
     <li><a href="http://localhost/desplinter/contact.html">Contact</a></li>
@@ -33,7 +33,6 @@
 
 
 <div id="formulier">
-<<<<<<< HEAD
     <?php
     if(isset($_POST['submit'])){
         $fname = $_POST['fname'];
@@ -78,27 +77,6 @@
     <?php
     }
     ?>
-=======
-    <h1 id="h1">Vul hier je gegevens in!</h1>
-
-    <form action="http://localhost/desplinter/php/forum.php" method="post">
-
-        <label>Hoe heet jij: <input type="text" name="fname"></label>
-        <br/>
-        <label>In welke groep zit jij:
-            <select name="group">
-                <option value="Je hebt geen groep gezokzen">Selecteer een groep</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-            </select>
-        </label>
-        <br>
-        <a href="http://localhost/desplinter/php/forum.php">
-            <input type="submit" name=volgende value="volgende">
-
-    </form>
->>>>>>> d5a473f5a37981f429e98500ede35e5154a4d392
 </div>
 
 
