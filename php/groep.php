@@ -28,27 +28,55 @@
 
 <!------------------------------------------------------------------------------------>
 
+
+
 <div id="formulier">
+    <?php
+    if(isset($_POST['submit'])){
+        $fname = $_POST['fname'];
+        $groep = $_POST['group'];
+        echo "Hallo, " . $fname . "<br/>";
+
+        switch ($groep) {
+            case "4";
+                echo "gRoEp 4";
+                break;
+            case "5";
+                echo "gRoEp 5";
+                break;
+            case "6";
+                echo "gRoEp 6";
+                break;
+            default:
+                echo "Test";
+        }
+    }
+    else{
+    ?>
     <h1>Vul hier je gegevens in!</h1>
 
-        <form action="http://localhost/desplinter/php/forum.php" method="post">
+        <form action="http://localhost/desplinter/php/groep.php" method="post">
 
             <label>Hoe heet jij: <input type="text" name="fname"></label>
             <br/>
             <label>In welke groep zit jij:
                 <select name="group">
-                    <option value="Je hebt geen groep gezokzen">Selecteer een groep</option>
+                    <option>Selecteer een groep</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
                     <option value="6">6</option>
                 </select>
             </label>
             <br>
-            <a href="http://localhost/desplinter/php/forum.php">
-            <input type="submit" name=volgende value="volgende">
+            <a href="http://localhost/desplinter/php/groep.php">
+            <input type="submit" name=submit value="volgende">
 
         </form>
+    <?php
+    }
+    ?>
 </div>
+
 
 
 </body>
