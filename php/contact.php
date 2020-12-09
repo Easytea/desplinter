@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <title>Rekensite</title>
-    <link rel="stylesheet" href="http://localhost/desplinter/css/contact.css">
-</head>
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
