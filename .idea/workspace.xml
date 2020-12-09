@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbe3d3bc-6c25-4c03-8cde-acef0d76c0f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/php/groep4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/groep5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/groep6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contactformulier.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contactformulier.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/groep.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/groep.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/homepage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/informatie.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/informatie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/oefeningen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/oefeningen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/informatie.html" beforeDir="false" afterPath="$PROJECT_DIR$/informatie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefeningen.html" beforeDir="false" afterPath="$PROJECT_DIR$/oefeningen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/forum.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/php/groep.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/groep.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +43,7 @@
       <workItem from="1606984793238" duration="2933000" />
       <workItem from="1607251289915" duration="439000" />
       <workItem from="1607418104805" duration="1309000" />
+      <workItem from="1607514713364" duration="5252000" />
     </task>
     <servers />
   </component>
