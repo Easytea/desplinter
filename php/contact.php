@@ -42,6 +42,32 @@
 <img src="http://localhost/desplinter/image/foto_2.jpg" alt="lachend kind" hight="800" width="500">
 </html>
 
+<?php
+if(isset($_POST['submit']))
+{
+    echo "error; Je moet het formulier voltooien";
+}
+$name = $_POST["name"];
+$email = $_POST["email"];
+$msg = $_POST["message"];
 
+if(empty($naam)||empty($email))
+{
+    echo "Vul een naam in en/of een geldig e-mailaddress";
+    exit;
+}
+
+$email_onderwerp = "Bericht van De Splinter";
+$email_body = "Je hebt een bericht ontvangen van $name. \n".
+                "E-mail address: $email\n".
+                "Hier is het bericht:\n $msg".
+
+    $to = "t.gieben@outlook.com";
+    $headers = "Van: $email \r\n";
+
+
+ mail($to,$email_onderwerp,$email_body,$headers);
+
+?>
 
 
