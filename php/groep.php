@@ -42,12 +42,15 @@
         switch ($groep) {
             case "4";
                 echo "gRoEp 4";
+                echo "<meta http-equiv=\"refresh\" content=\"5; url=groep4.php\" />";
                 break;
             case "5";
                 echo "gRoEp 5";
+                echo "<meta http-equiv=\"refresh\" content=\"5; url=groep5.php\" />";
                 break;
             case "6";
                 echo "gRoEp 6";
+                echo "<meta http-equiv=\"refresh\" content=\"5; url=groep6.php\" />";
                 break;
             default:
                 echo "Test";
