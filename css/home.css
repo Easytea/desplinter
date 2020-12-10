@@ -53,3 +53,19 @@ li a:hover {
         background-color: pink;
 }
 /*--------------------------------------------------------------------------------------------------------*/
+
+.banaan{
+        float: left;
+        width: 1520px;
+        height: 200px;
+        background-color:;
+}
+
+.tekst{
+        float: left;
+        width: 475px;
+        height: 200px;
+        background-color: dimgray;
+        border: 2px solid black;
+        margin: 12px;
+}
