@@ -16,3 +16,6 @@ Zodat we hier extra info in kunnen zetten.
 	
 26-11-2020
 	-Contact pagina gemaakt met een automatisch email verzend system. Deze werkt nog niet optimaal.
+
+10-12-2020
+	-Het mail systeem werkt nogsteeds niet.
