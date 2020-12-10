@@ -6,9 +6,6 @@
     <meta name=description content="beschrijving">
     <meta name=keywords content="trefwoord,trefwoord">
     <link rel="stylesheet" href="http://localhost/desplinter/css/groep.css">
-                <style>
-
-                </style>
 </head>
 <body>
 <div id="head">
@@ -37,23 +34,24 @@
     if(isset($_POST['submit'])){
         $fname = $_POST['fname'];
         $groep = $_POST['group'];
-        echo "Hallo, " . $fname . "<br/>";
+        echo "<p class=\"hallotekst\">Hallo, " . $fname ."<br/></p>";
 
         switch ($groep) {
             case "4";
-                echo "gRoEp 4";
-                echo "<meta http-equiv=\"refresh\" content=\"5; url=groep4.php\" />";
+                echo "<p class=\"groeptekst\">Groep 4</p>";
+                echo "<meta http-equiv=\"refresh\" content=\"5; url=http://localhost/desplinter/plusmin.html\" />";
                 break;
             case "5";
-                echo "gRoEp 5";
-                echo "<meta http-equiv=\"refresh\" content=\"5; url=groep5.php\" />";
+                echo "<p class=\"groeptekst\">Groep 5 </p>";
+                echo "<meta http-equiv=\"refresh\" content=\"5; url=http://localhost/desplinter/plusmin.html\" />";
                 break;
             case "6";
-                echo "gRoEp 6";
-                echo "<meta http-equiv=\"refresh\" content=\"5; url=groep6.php\" />";
+                echo "<p class=\"groeptekst\">Groep 6</p>";
+                echo "<meta http-equiv=\"refresh\" content=\"5; url=http://localhost/desplinter/plusmin.html\" />";
                 break;
             default:
-                echo "Test";
+                echo "<p class=\"groeptekst\">U heeft geen groep ingevud!
+                <br/>(Keer terug naar de vorige pagina)</p>";
         }
     }
     else{

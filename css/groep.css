@@ -74,3 +74,12 @@ li a:hover {
     transform: translate(-50%, -50%);
 }
 
+.groeptekst{
+    font-family: "Agency FB";
+    font-size: 24pt;
+}
+
+.hallotekst{
+    font-family: "Agency FB";
+    font-size: 15pt;
+}
