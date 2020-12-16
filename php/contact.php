@@ -6,7 +6,7 @@
     <meta charset=utf-8>
     <meta name=description content="beschrijving">
     <meta name=keywords content="trefwoord,trefwoord">
-    <link rel="stylesheet" href="http://localhost/desplinter/css/groep.css">
+    <link rel="stylesheet" href="http://localhost/desplinter/css/contactformulier.css">
 
 </head>
 <body>

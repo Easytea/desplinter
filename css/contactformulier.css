@@ -61,8 +61,4 @@ fieldset{
     font-size:14px;    padding:5px;    width:500px;    line-height:1.8;    margin: 0 auto;
 }
 
-img{
-    border: 10px solid transparent;
-    padding: 15px;
-    border-image: url(http://localhost/desplinter/image/border.png) 30 round;
-}
+
