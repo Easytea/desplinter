@@ -23,7 +23,7 @@ if(isset($_GET['groep']))
     </div>
 </div>
 <ul>
-    <li><a href="index.html">Home</a></li>
+    <li><a href="http://localhost/desplinter/index.html">Home</a></li>
     <li><a href="http://localhost/desplinter/informatie.html">Informatie</a></li>
     <li><a href="http://localhost/desplinter/php/groep.php">Oefeningen</a></li>
     <li><a href="http://localhost/desplinter/contact.html">Contact</a></li>
