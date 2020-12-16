@@ -39,7 +39,7 @@
         switch ($groep) {
             case "4";
                 echo "<p class=\"groeptekst\">Groep 4</p>";
-                echo "<meta http-equiv=\"refresh\" content=\"5; url=http://localhost/desplinter/plusmin.html\" />";
+                echo "<meta http-equiv=\"refresh\" content=\"5; url=plusmin.php?groep=$groep\" />";
                 break;
             case "5";
                 echo "<p class=\"groeptekst\">Groep 5 </p>";
@@ -71,7 +71,7 @@
                 </select>
             </label>
             <br>
-            <a href="http://localhost/desplinter/php/groep.php">
+            <a href="http://localhost/desplinter/php/groep.php ">
             <input type="submit" name=submit value="volgende">
 
         </form>

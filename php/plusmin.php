@@ -1,3 +1,11 @@
+<?php
+if(isset($_GET['groep']))
+{
+    $groep = $_GET['groep'];
+    echo "De geselecteerde groep is : ".$groep;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
