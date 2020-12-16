@@ -43,11 +43,11 @@
                 break;
             case "5";
                 echo "<p class=\"groeptekst\">Groep 5 </p>";
-                echo "<meta http-equiv=\"refresh\" content=\"5; url=http://localhost/desplinter/plusmin.html\" />";
+                echo "<meta http-equiv=\"refresh\" content=\"5; url=http://localhost/desplinter/php/plusmin.php\" />";
                 break;
             case "6";
                 echo "<p class=\"groeptekst\">Groep 6</p>";
-                echo "<meta http-equiv=\"refresh\" content=\"5; url=http://localhost/desplinter/plusmin.html\" />";
+                echo "<meta http-equiv=\"refresh\" content=\"5; url=http://localhost/desplinter/php/plusmin.php\" />";
                 break;
             default:
                 echo "<p class=\"groeptekst\">U heeft geen groep ingevud!
