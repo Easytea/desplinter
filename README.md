@@ -19,3 +19,7 @@ Zodat we hier extra info in kunnen zetten.
 
 10-12-2020
 	-Het mail systeem werkt nogsteeds niet.
+	
+16 - 12 - 2020 
+	-Aleen de reken pagina nog maken de het pad naar de pagina is al gemaakt.
+	
