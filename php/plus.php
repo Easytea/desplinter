@@ -25,10 +25,30 @@ if(isset($_GET['groep']))
     <li><a href="http://localhost/desplinter/informatie.html">Informatie</a></li>
     <li><a href="http://localhost/desplinter/php/groep.php">Oefeningen</a></li>
     <li><a href="http://localhost/desplinter/contact.html">Contact</a></li>
-    <li><?php echo "<li><a href=\"http://localhost/desplinter/php/plusmin.php?groep=$groep\"><img src=\"http://localhost/desplinter/image/pijl.png\" alt=\"pijl\" /></a></li>" ;
+
+    <script>
+        function myFunction() {
+            var txt;
+            if (confirm("Je keert terug naar de vorige pagina")) {
+                txt = "Je hebt bevestigd";
+            } else {
+                txt = "Je hebt geweigerd";
+            }
+            document.getElementById("demo").innerHTML = txt;
+        }
+    </script>
+
+    <button onclick="myFunction()">
+    <?php echo "
+                    <a href=\"http://localhost/desplinter/php/plusmin.php?groep=$groep\">
+                    <img src=\"http://localhost/desplinter/image/pijl.png\" alt=\"pijl\" />
+                    </a>";
         ?>
+    </button>
+
 </ul>
 <hr/>
+
 <!---->
 <?php
     echo"<h1>PLUS</h1>";
