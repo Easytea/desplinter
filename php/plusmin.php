@@ -27,29 +27,31 @@
 if(isset($_GET['groep']))
 {
     $groep = $_GET['groep'];
-    echo "De geselecteerde groep is : ".$groep;
+    /*echo "De geselecteerde groep is : ".$groep;*/
 }
 ?>
 <div class="banaan">
-    <div onclick="location.href= ''" id="plus" class="tekst">
-        <h2>PLUS</h2>
-        <h1 class="var">+</h1>
-    </div>
+    <?php
+        echo"<div onclick=\"location.href= 'plus.php?groep=$groep'\" id=\"plus\" class=\"tekst\">";
+        echo"<h2>PLUS</h2>";
+        echo"<h1 class=\"var\">+</h1>";
+        echo"</div>";
 
-    <div onclick="location.href= ''" id="min" class="tekst">
-        <h2>MIN</h2>
-        <h1 class="var">-</h1>
-    </div>
+        echo"<div onclick=\"location.href= 'min.php?groep=$groep'\" id=\"min\" class=\"tekst\">";
+        echo"<h2>MIN</h2>";
+        echo"<h1 class=\"var\">-</h1>";
+        echo"</div>";
 
-    <div onclick="location.href= ''" id="delen" class="tekst">
-        <h2>DELEN</h2>
-        <h1 class="var">:</h1>
-    </div>
+        echo"<div onclick=\"location.href= 'delen.php?groep=$groep'\" id=\"delen\" class=\"tekst\">";
+        echo"<h2>DELEN</h2>";
+        echo"<h1 class=\"var\">:</h1>";
+        echo"</div>";
 
-    <div onclick="location.href= ''" id="keer" class="tekst">
-        <h2>KEER</h2>
-        <h1 class="var">x</h1>
-    </div>
+        echo"<div onclick=\"location.href= 'keer.php?groep=$groep'\" id=\"keer\" class=\"tekst\">";
+        echo"<h2>KEER</h2>";
+        echo"<h1 class=\"var\">X</h1>";
+        echo"</div>";
+   ?>
 
     <div onclick="location.href= ''" id="overzicht" class="tekst">
         <h2>OVERZICHT</h2>
