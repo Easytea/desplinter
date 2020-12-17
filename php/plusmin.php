@@ -1,11 +1,3 @@
-<?php
-if(isset($_GET['groep']))
-{
-    $groep = $_GET['groep'];
-    echo "De geselecteerde groep is : ".$groep;
-}
-?>
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -31,7 +23,13 @@ if(isset($_GET['groep']))
 <hr/>
 
 <!------------------------------------------------------------------------------------>
-
+<?php
+if(isset($_GET['groep']))
+{
+    $groep = $_GET['groep'];
+    echo "De geselecteerde groep is : ".$groep;
+}
+?>
 <div class="banaan">
     <div onclick="location.href= ''" id="plus" class="tekst">
         <h2>PLUS</h2>
