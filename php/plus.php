@@ -7,7 +7,7 @@
 if(isset($_GET['groep']))
 {
     $groep = $_GET['groep'];
-    echo "De geselecteerde groep is : ". $groep;
+    echo "De geselecteerde groep is : ". $groep . "</br>";
 
 switch ($groep) {
     case"4";
@@ -16,7 +16,7 @@ switch ($groep) {
     break;
     case"5";
         $getal1 = rand(50,150);
-        $getal2 = rand(0,1500);
+        $getal2 = rand(0,150);
         break;
     case"6";
         $getal1 = rand(100,200);
