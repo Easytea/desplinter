@@ -1,3 +1,9 @@
+<?php
+if(isset($_GET['groep']))
+{
+    $groep = $_GET['groep'];
+?>
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -26,12 +32,7 @@
 <!---->
 <?php
     echo"<h1>PLUS</h1>";
-
-
-if(isset($_GET['groep']))
-{
-    $groep = $_GET['groep'];
-    echo "De geselecteerde groep is : ". $groep . "</br>";
+    echo "De geselecteerde groep is : ". $groep . "</br>";}
 
 switch ($groep) {
     case"4";
@@ -48,6 +49,6 @@ switch ($groep) {
         break;
     default;
     }
-}
+
 echo $getal1 . "+" . $getal2 ;
 ?>
