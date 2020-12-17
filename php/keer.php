@@ -1,6 +1,6 @@
 <!---->
 <?php
-echo"<h1>DELEN</h1>";
+echo"<h1>KEER</h1>";
 
 
 if(isset($_GET['groep']))
@@ -24,5 +24,5 @@ if(isset($_GET['groep']))
         default;
     }
 }
-echo $getal1 . ":" . $getal2 ;
+echo $getal1 . "*" . $getal2 ;
 ?>
