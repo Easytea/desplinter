@@ -1,7 +1,7 @@
 <?php
-if(isset($_GET['groep']))
-{
+if(isset($_GET['groep'])) {
     $groep = $_GET['groep'];
+}
 ?>
 
 <!DOCTYPE html>
@@ -49,16 +49,15 @@ if(isset($_GET['groep']))
 </ul>
 <hr/>
 
-<!---->
-<?php
-    echo"<h1>PLUS</h1>";
-    echo "De geselecteerde groep is : ". $groep . "</br>";}
+<!--------------------------------------------------------------------------------------------------------->
 
+
+<?php
 switch ($groep) {
     case"4";
         $getal1 = rand(0,100);
         $getal2 = rand(0,100);
-    break;
+        break;
     case"5";
         $getal1 = rand(50,150);
         $getal2 = rand(0,150);
@@ -67,10 +66,47 @@ switch ($groep) {
         $getal1 = rand(100,200);
         $getal2 = rand(50,200);
         break;
-    default;
-    }
+    default;}
 
-echo $getal1 . "+" . $getal2 ;
 
-    $uitkomst = $getal1 + $getal2 ;
+
+if(isset($_POST['submit'])) {
+    $antuser = $_POST['awu'];
+    $antwoord = $_POST['getal1'] + $_POST['getal2'];
+
+        if ($antuser==$antwoord){
+            echo "<h1>het antwoord is GOED!!!</h1>";
+            echo"<div onclick=\"location.href= 'plus.php?groep=$groep'\" id=\"\" class=\"\">";
+            echo"<h4>Kilk hier om verder te gaan</h4>";
+            echo"</div>";
+        }
+        else{
+            echo"<h1>het antwoord is FOUT</h1>";
+            echo"<h3>jou antwoord = ".$antuser."</h3>";
+            echo"<h3>het goedde antwoord was = ".$antwoord."</h3>";
+            echo"<div onclick=\"location.href= 'plus.php?groep=$groep'\" id=\"\" class=\"\">";
+            echo"<h4>opnieuw</h4>";
+            echo"</div>";
+        }
+}
+
+    else{
+
+
+
+    echo"<h1>Bereken de uitkomst</h1>";
+    echo"<form action=\"plus.php?groep=$groep\" method=\"post\">";
+        echo"<label>".$getal1." + ".$getal2."<input type=\"text\" name=\"awu\"></label>";
+        echo"<a href=\"http://localhost/desplinter/php/plus.php\">";
+        echo "<input type='hidden' name='getal1' value='$getal1'>";
+        echo "<input type='hidden' name='getal2' value='$getal2'>";
+    echo"<input type=\"submit\" name=submit value=\"Enter\">";
+    echo"</form>";
+
+}
+
 ?>
+
+
+</body>
+</html>
