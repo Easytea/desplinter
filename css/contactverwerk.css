@@ -53,12 +53,50 @@ li a:hover {
     background-color: hotpink;
 }
 /*--------------------------------------------------------------------------------------------------------*/
+#container{
+    margin: auto;
+    padding: 10px;
+    height: 200px;
+    width: 400px;
 
-fieldset{
-    background-color: blanchedalmond ;
-    font-family: "Calibri";
-    text-align: center;
-    font-size:14px;    padding:5px;    width:500px;    line-height:1.8;    margin: 0 auto;
 }
 
+#knop{
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
 
+#text{
+    margin: auto;
+    border: 3px solid black;
+    padding: 10px;
+    height: 25px;
+    width: 180px;
+    font-family: "Agency FB";
+    font-size: 10px;
+    background-color: cadetblue;
+}
+
+#text2{
+    float: bottom;
+    margin: auto;
+    border: 3px solid black;
+    height: 100px;
+    width: 250px;
+    font-family: "Agency FB";
+    font-size: 10px;
+    background-color: indianred;
+}
+
+#gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
