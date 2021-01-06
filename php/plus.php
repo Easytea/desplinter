@@ -71,4 +71,6 @@ switch ($groep) {
     }
 
 echo $getal1 . "+" . $getal2 ;
+
+    $uitkomst = $getal1 + $getal2 ;
 ?>
