@@ -51,7 +51,7 @@ if(isset($_GET['groep'])) {
 
 <!--------------------------------------------------------------------------------------------------------->
 
-
+<div id="container">
 <?php
 switch ($groep) {
     case"4";
@@ -75,17 +75,17 @@ if(isset($_POST['submit'])) {
     $antwoord = $_POST['getal1'] + $_POST['getal2'];
 
         if ($antuser==$antwoord){
-            echo "<h1>het antwoord is GOED!!!</h1>";
+            echo"<h1>het antwoord is</h1> <p id='goed'>GOED!</p>";
             echo"<div onclick=\"location.href= 'plus.php?groep=$groep'\" id=\"\" class=\"\">";
-            echo"<h4>Kilk hier om verder te gaan</h4>";
+            echo"<h4 id='verder'>Kilk hier om verder te gaan</h4>";
             echo"</div>";
         }
         else{
-            echo"<h1>het antwoord is FOUT</h1>";
-            echo"<h3>jou antwoord = ".$antuser."</h3>";
-            echo"<h3>het goedde antwoord was = ".$antwoord."</h3>";
+            echo"<h2>Het antwoord is</h2> <p id='fout'>FOUT!</p>";
+            echo"<p>Jouw antwoord = ".$antuser."</p>";
+            echo"<p>het goede antwoord was = ".$antwoord."</p>";
             echo"<div onclick=\"location.href= 'plus.php?groep=$groep'\" id=\"\" class=\"\">";
-            echo"<h4>opnieuw</h4>";
+            echo"<h4 id='opnieuw'>Opnieuw</h4>";
             echo"</div>";
         }
 }
@@ -106,7 +106,7 @@ if(isset($_POST['submit'])) {
 }
 
 ?>
-
+</div>
 
 </body>
 </html>

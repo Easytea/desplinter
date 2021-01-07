@@ -52,8 +52,49 @@ li a {
 li a:hover {
     background-color: hotpink;
 }
+/*--------------------------------------------------------------------------------------------------------*/
 
 button{
     background-color: pink;
     float: right;
 }
+
+#container{
+    float:left;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 750px;
+    height: 300px;
+    background-color: white;
+    font-family: "Agency FB";
+    border: 1px solid black;
+    text-align: center;
+}
+
+#goed{
+    font-family: "Agency FB";
+    color: green;
+    font-size: 35px;
+}
+
+#fout{
+    font-family: "Agency FB";
+    color: red;
+    font-size: 35px;
+}
+
+#opnieuw{
+    font-family: "Agency FB";
+    color: cadetblue;
+    font-size: 35px;
+}
+
+#verder{
+    font-family: "Agency FB";
+    color: limegreen;
+    font-size: 30px;
+}
+
