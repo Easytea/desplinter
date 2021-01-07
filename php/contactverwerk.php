@@ -33,10 +33,6 @@
     <div id="text">
         <h1>Bedankt voor uw bericht!!</h1>
     </div>
-            <div id="knop">
-                <a href="http://localhost/desplinter/index.html"></a>
-                <img src="http://localhost/desplinter/image/pijl.png" alt="pijl"/>
-            </div>
     <div>
         <img src="http://localhost/desplinter/image/bedankt.gif" alt="gif"/>
     </div>

@@ -61,17 +61,7 @@ li a:hover {
 
 }
 
-#knop{
-    border: none;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    float: left;
-    width: 20px;
-    height: 20px;
-}
+
 
 #text{
     margin: auto;
