@@ -45,6 +45,13 @@ if(isset($_GET['groep'])) {
                     </a>";
         ?>
     </button>
+    <button onclick="">
+        <?php echo "
+                    <a href=\"http://localhost/desplinter/php/calculator.php\" target=\"_blank\">
+                    <img src=\"http://localhost/desplinter/image/calculator.png\" alt=\"calculator\" />
+                    </a>";
+        ?>
+    </button>
 
 </ul>
 <hr/>
