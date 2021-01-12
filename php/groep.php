@@ -39,15 +39,15 @@
         switch ($groep) {
             case "4";
                 echo "<p class=\"groeptekst\">Groep 4</p>";
-                echo "<meta http-equiv=\"refresh\" content=\"3; url=plusmin.php?groep=$groep\" />";
+                echo "<meta http-equiv=\"refresh\" content=\"1; url=plusmin.php?groep=$groep\" />";
                 break;
             case "5";
                 echo "<p class=\"groeptekst\">Groep 5 </p>";
-                echo "<meta http-equiv=\"refresh\" content=\"3; url=plusmin.php?groep=$groep\" />";
+                echo "<meta http-equiv=\"refresh\" content=\"1; url=plusmin.php?groep=$groep\" />";
                 break;
             case "6";
                 echo "<p class=\"groeptekst\">Groep 6</p>";
-                echo "<meta http-equiv=\"refresh\" content=\"3; url=plusmin.php?groep=$groep\" />";
+                echo "<meta http-equiv=\"refresh\" content=\"1; url=plusmin.php?groep=$groep\" />";
                 break;
             default:
                 echo "<p class=\"groeptekst\">U heeft geen groep ingevud!
