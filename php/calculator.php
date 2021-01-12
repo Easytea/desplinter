@@ -51,7 +51,7 @@ class calculator
                 break;
 
             default:
-                return "Sorry No command found";
+                return "Voer een commando in...";
         }
     }
     function getresult($a, $b, $c)
@@ -72,7 +72,7 @@ if(isset($_POST['submit']))
 <div id="calculator">
 <form method="post">
     <table align="center">
-        <tr>
+        <tr id="antwoord">
             <td><strong><?php echo $result; ?><strong></td>
         </tr>
         <tr>
