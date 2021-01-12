@@ -42,11 +42,11 @@ class calculator
                 return $this->a - $this->b;
                 break;
 
-            case '*':
+            case 'x':
                 return $this->a * $this->b;
                 break;
 
-            case '/':
+            case ':':
                 return $this->a / $this->b;
                 break;
 
@@ -88,10 +88,11 @@ if(isset($_POST['submit']))
         <tr>
             <td>Slecteer operator</td>
             <td><select name="op">
+                    <option value="">operator</option>
                     <option value="+">+</option>
                     <option value="-">-</option>
-                    <option value="*">*</option>
-                    <option value="/">/</option>
+                    <option value="x">x</option>
+                    <option value=":">:</option>
                 </select></td>
         </tr>
 
