@@ -1,15 +1,15 @@
 <?php
-if(isset($_GET['groep']))
-{
+if(isset($_GET['groep'])) {
     $groep = $_GET['groep'];
-    ?>
+}
+?>
 
-    <!DOCTYPE html>
-    <html lang="nl">
-    <head>
-        <title>Rekensite</title>
-        <link rel="stylesheet" href="http://localhost/desplinter/css/sommen.css">
-    </head>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Rekensite</title>
+    <link rel="stylesheet" href="http://localhost/desplinter/css/sommen.css">
+</head>
 <body>
 <div id="head">
     <div class="header">
@@ -45,20 +45,21 @@ if(isset($_GET['groep']))
                     </a>";
         ?>
     </button>
+    <button onclick="">
+        <?php echo "
+                    <a href=\"http://localhost/desplinter/php/calculator.php\" target=\"_blank\">
+                    <img src=\"http://localhost/desplinter/image/calculator.png\" alt=\"calculator\" />
+                    </a>";
+        ?>
+    </button>
 
 </ul>
 <hr/>
 
-<!---->
-<?php
-echo"<h1>KEER</h1>";
+<!--------------------------------------------------------------------------------------------------------->
 
-
-if(isset($_GET['groep']))
-{
-    $groep = $_GET['groep'];
-    echo "De geselecteerde groep is : ". $groep . "</br>";
-
+<div id="container">
+    <?php
     switch ($groep) {
         case"4";
             $getal1 = rand(0,100);
@@ -72,7 +73,47 @@ if(isset($_GET['groep']))
             $getal1 = rand(100,200);
             $getal2 = rand(50,200);
             break;
-        default;
+        default;}
+
+
+
+    if(isset($_POST['submit'])) {
+        $antuser = $_POST['awu'];
+        $antwoord = $_POST['getal1'] * $_POST['getal2'];
+
+        if ($antuser==$antwoord){
+            echo"<h1>het antwoord is</h1> <p id='goed'>GOED!</p>";
+            echo"<div onclick=\"location.href= 'keer.php?groep=$groep'\" id=\"\" class=\"\">";
+            echo"<h4 id='verder'>Kilk hier om verder te gaan</h4>";
+            echo"</div>";
+        }
+        else{
+            echo"<h2>Het antwoord is</h2> <p id='fout'>FOUT!</p>";
+            echo"<p>Jouw antwoord = ".$antuser."</p>";
+            echo"<p>het goede antwoord was = ".$antwoord."</p>";
+            echo"<div onclick=\"location.href= 'keer.php?groep=$groep'\" id=\"\" class=\"\">";
+            echo"<h4 id='opnieuw'>Opnieuw</h4>";
+            echo"</div>";
+        }
     }
-echo $getal1 . "*" . $getal2 ;
-?>
+
+    else{
+
+
+
+        echo"<h1>Bereken de uitkomst</h1>";
+        echo"<form action=\"keer.php?groep=$groep\" method=\"post\">";
+        echo"<label>".$getal1." x ".$getal2."<input type=\"text\" name=\"awu\"></label>";
+        echo"<a href=\"http://localhost/desplinter/php/keer.php\">";
+        echo "<input type='hidden' name='getal1' value='$getal1'>";
+        echo "<input type='hidden' name='getal2' value='$getal2'>";
+        echo"<input type=\"submit\" name=submit value=\"Enter\">";
+        echo"</form>";
+
+    }
+
+    ?>
+</div>
+
+</body>
+</html>
