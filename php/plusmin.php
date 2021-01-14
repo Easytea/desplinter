@@ -7,7 +7,7 @@
 <body>
 <div id="head">
     <div class="header">
-        <img src="http://localhost/desplinter/image/logo.jpg" alt="logo" />
+        <a href="http://localhost/desplinter/"><img src="http://localhost/desplinter/image/logo.jpg" alt="logo" /></a>
     </div>
 
     <div id="desplinter">
