@@ -13,7 +13,7 @@ if(isset($_GET['groep'])) {
 <body>
 <div id="head">
     <div class="header">
-        <img src="http://localhost/desplinter/image/logo.jpg" alt="logo" />
+        <a href="http://localhost/desplinter/"><img src="http://localhost/desplinter/image/logo.jpg" alt="logo" /></a>
     </div>
 
     <div id="desplinter">
@@ -103,7 +103,7 @@ if(isset($_GET['groep'])) {
 
         echo"<h1>Bereken de uitkomst</h1>";
         echo"<form action=\"delen.php?groep=$groep\" method=\"post\">";
-        echo"<label>".$getal1." : ".$getal2."<input type=\"text\" name=\"awu\"></label>";
+        echo"<label>".$getal1." / ".$getal2."<input type=\"text\" name=\"awu\"></label>";
         echo"<a href=\"http://localhost/desplinter/php/delen.php\">";
         echo "<input type='hidden' name='getal1' value='$getal1'>";
         echo "<input type='hidden' name='getal2' value='$getal2'>";

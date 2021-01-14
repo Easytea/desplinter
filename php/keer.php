@@ -13,7 +13,7 @@ if(isset($_GET['groep'])) {
 <body>
 <div id="head">
     <div class="header">
-        <img src="http://localhost/desplinter/image/logo.jpg" alt="logo" />
+        <a href="http://localhost/desplinter/"><img src="http://localhost/desplinter/image/logo.jpg" alt="logo" /></a>
     </div>
 
     <div id="desplinter">
@@ -62,16 +62,16 @@ if(isset($_GET['groep'])) {
     <?php
     switch ($groep) {
         case"4";
-            $getal1 = rand(0,100);
-            $getal2 = rand(0,100);
+            $getal1 = rand(1,100);
+            $getal2 = rand(1,100);
             break;
         case"5";
-            $getal1 = rand(50,150);
-            $getal2 = rand(0,150);
+            $getal1 = rand(1,150);
+            $getal2 = rand(1,250);
             break;
         case"6";
-            $getal1 = rand(100,200);
-            $getal2 = rand(50,200);
+            $getal1 = rand(1,250);
+            $getal2 = rand(1,1000);
             break;
         default;}
 
