@@ -12,7 +12,7 @@
 <body>
 <div id="head">
     <div class="header">
-        <a href="http://localhost/desplinter/"><img src="http://localhost/desplinter/image/logo.jpg" alt="logo" /></a>
+        <a href="http://localhost/desplinter/index.html"><img src="http://localhost/desplinter/image/logo.jpg" alt="logo" /></a>
     </div>
 
     <div id="desplinter">

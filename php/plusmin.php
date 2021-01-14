@@ -7,7 +7,7 @@
 <body>
 <div id="head">
     <div class="header">
-        <a href="http://localhost/desplinter/"><img src="http://localhost/desplinter/image/logo.jpg" alt="logo" /></a>
+        <a href="http://localhost/desplinter/index.html"><img src="http://localhost/desplinter/image/logo.jpg" alt="logo" /></a>
     </div>
 
     <div id="desplinter">
@@ -32,7 +32,7 @@ if(isset($_GET['groep']))
 ?>
 <div class="banaan">
     <?php
-        echo"<div class=\'container\'><div onclick=\"location.href= 'plus.php?groep=$groep'\" id=\"plus\" class=\"tekst\">";
+        echo"<div onclick=\"location.href= 'plus.php?groep=$groep'\" id=\"plus\" class=\"tekst\">";
         echo"<h2>PLUS</h2>";
         echo"<h1 class=\"var\">+</h1>";
         echo"</div>";
@@ -40,9 +40,9 @@ if(isset($_GET['groep']))
         echo"<div onclick=\"location.href= 'min.php?groep=$groep'\" id=\"min\" class=\"tekst\">";
         echo"<h2>MIN</h2>";
         echo"<h1 class=\"var\">-</h1>";
-        echo"</div></div>";
+        echo"</div>";
 
-        echo"<div class=\'container\'><div onclick=\"location.href= 'delen.php?groep=$groep'\" id=\"delen\" class=\"tekst\">";
+        echo"<div onclick=\"location.href= 'delen.php?groep=$groep'\" id=\"delen\" class=\"tekst\">";
         echo"<h2>DELEN</h2>";
         echo"<h1 class=\"var\">:</h1>";
         echo"</div>";
@@ -50,7 +50,7 @@ if(isset($_GET['groep']))
         echo"<div onclick=\"location.href= 'keer.php?groep=$groep'\" id=\"keer\" class=\"tekst\">";
         echo"<h2>KEER</h2>";
         echo"<h1 class=\"var\">X</h1>";
-        echo"</div></div>";
+        echo"</div>";
    ?>
 </div>
 
